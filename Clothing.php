@@ -54,9 +54,9 @@ if (isset($_POST['add_to_cart'])) {
                 </h6>
                 <span>
                   <h6>
-                    Rs:<?php
-                          echo  $row["Price"]
-                          ?>
+                    Price:Rs&nbsp;<?php
+                                  echo  $row["Price"]
+                                  ?>
                   </h6>
                 </span>
                 <input type="hidden" name="user_id" value="<?php echo $_SESSION['userid']; ?>">

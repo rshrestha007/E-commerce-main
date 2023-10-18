@@ -43,19 +43,21 @@ if (isset($_POST['add_to_cart'])) {
       while ($row = mysqli_fetch_assoc($result)) {
     ?>
         <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-          <div class="col-md-3 col-sm-6 col-6">
+          <div class="col-lg-3 col-lg-6 col-6">
             <div>
               <img width="250" height="350" src="admin/cloth_img/<?php echo $row['imgname']; ?>">
             </div>
             <div>
               <div>
                 <h6>
-                  <span>
-                    <?php echo $row["name"] ?>
-                  </span>
+                  <?php echo $row["name"] ?>
 
+                  Price:Rs&nbsp;<?php
+                                echo $row["Price"]
+                                ?>
                 </h6>
-                <span><?php echo $row["Price"] ?></span>
+
+
                 <input type="hidden" name="user_id" value="<?php echo $_SESSION['userid']; ?>">
                 <input type="hidden" name="product_id" value="<?php echo $row['id']; ?>">
                 <input type="hidden" name="product_name" value="<?php echo $row['name']; ?>">

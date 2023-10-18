@@ -93,14 +93,14 @@ else
     
       <div class="col-lg-6 text-center">
       <a href="clothing.php">
-       <img width="250" height="350" src="img/g1.jpg">
+       <img width="300" height="400" src="img/g1.jpg">
 </a>
         <p>Bags</p>
       </div>
-      <div class="col-lg-6 text-center">
+      <div class="col text-center">
         
         <a href="Studios.php">
-        <img width="250" height="350" src="img/g2.jpg">
+        <img width="300" height="400" src="img/g2.jpg">
         </a>
         <p>Studios</p>
       </div>   
