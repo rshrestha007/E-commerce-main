@@ -25,5 +25,7 @@ include'lib/connection.php';
     <link rel="stylesheet" href="css/home.css">
 
 </head>
-
+<body>
+    <h1>Welcome to The Tachis Admin Panel </h1>
+</body>
 </html>

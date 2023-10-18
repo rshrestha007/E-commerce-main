@@ -91,34 +91,19 @@ else
   <div>
     <div class="row">
     
-      <div class="col-md-3 text-center">
+      <div class="col-lg-6 text-center">
       <a href="clothing.php">
        <img width="250" height="350" src="img/g1.jpg">
 </a>
         <p>Bags</p>
       </div>
-      <div class="col-md-3 text-center">
+      <div class="col-lg-6 text-center">
         
-        <a href="clothing.php">
+        <a href="Studios.php">
         <img width="250" height="350" src="img/g2.jpg">
         </a>
         <p>Studios</p>
-      </div>
-      <div  class="col-md-3 text-center">
-        
-        <a href="clothing.php">
-        <img width="250" height="350" src="img/b5.jpg">
-        </a>
-        <p>Bags</p>
-      </div>
-      <div class="col-md-3 text-center">
-  
-  <a href="clothing.php">
-  <img width="250" height="350" src="img/c3.jpg">
-  </a>
-  <p font-family="cursive"; >Studios</p>
-      </div>
-    
+      </div>   
   </div>
 </div>
 </div>
